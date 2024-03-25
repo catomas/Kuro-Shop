@@ -36,7 +36,7 @@ export async function generateMetadata(
     openGraph: {
       title: product?.title ?? "Producto no encontrado",
       description: product?.description ?? "",
-      images: [`/products/${product?.images[0]}`],
+      images: [`/anime/${product?.images[0]}` || `${product?.images[0]}`],
     },
   };
 }
