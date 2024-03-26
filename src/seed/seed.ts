@@ -601,7 +601,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["HAREM-MULTIVERSE.jpeg", "HAREM-MULTIVERSE.jpeg"],
+      images: ["HAREM-MULTIVERSE.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_harem_multiverse",
@@ -612,7 +612,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["KILLUA-MELANCHOLY.jpeg", "KILLUA-MELANCHOLY.jpeg"],
+      images: ["KILLUA-MELANCHOLY.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_killua_melancholy",
@@ -623,7 +623,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["ZOLDYCK-CLAN.jpeg", "ZOLDYCK-CLAN.jpeg"],
+      images: ["ZOLDYCK-CLAN.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_zoldyck_family",
@@ -634,7 +634,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["MAKIMA-SILENCE.jpeg", "MAKIMA-SILENCE.jpeg"],
+      images: ["MAKIMA-SILENCE.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_makima_silence",
@@ -645,7 +645,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["DAKI.jpeg", "DAKI.jpeg"],
+      images: ["DAKI.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_daki",
@@ -656,7 +656,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["BERSERK.jpeg", "BERSERK.jpeg"],
+      images: ["BERSERK.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_berserk",
@@ -667,7 +667,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["SNINING.jpeg", "SNINING.jpeg"],
+      images: ["SNINING.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_snining",
@@ -678,7 +678,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["JOTARO.jpeg", "JOTARO.jpeg"],
+      images: ["JOTARO.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_jotaro_jojo",
@@ -689,7 +689,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["NEZUDEMON.jpeg", "NEZUDEMON.jpeg"],
+      images: ["NEZUDEMON.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_nezu_demon",
@@ -700,7 +700,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["MISATO.jpeg", "MISATO.jpeg"],
+      images: ["MISATO.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_misato",
@@ -711,7 +711,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["NEZUKO.jpeg", "NEZUKO.jpeg"],
+      images: ["NEZUKO.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_nezuko",
@@ -722,7 +722,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["REI.jpeg", "REI.jpeg"],
+      images: ["REI.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_rei",
@@ -733,7 +733,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["THIRD-CHILD.jpeg", "THIRD-CHILD.jpeg"],
+      images: ["THIRD-CHILD.jpeg"],
       inStock: 16,
       price: 35,
       slug: "poster_third_child",
@@ -744,7 +744,7 @@ export const initialData: SeedData = {
     },
     {
       description: "Poster hecho de alta calidad con un diseño único.",
-      images: ["HIMIKO.jpg", "HIMIKO.jpg"],
+      images: ["HIMIKO.jpg"],
       inStock: 16,
       price: 35,
       slug: "poster_himiko_toga",

@@ -18,7 +18,7 @@ export const AddToCart = ({ product }: AddToCartProps) => {
 
   const addToCart = () => {
     setPosted(true);
-    if (!size) return;
+    if (!size && product.sizes.length > 0) return;
 
     const cartProduct: CartProduct = {
       id: product.id,
@@ -26,7 +26,7 @@ export const AddToCart = ({ product }: AddToCartProps) => {
       title: product.title,
       price: product.price,
       quantity: quantity,
-      size: size,
+      size: size!,
       image: product.images[0],
     };
 

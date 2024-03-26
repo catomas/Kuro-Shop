@@ -141,7 +141,7 @@ model OrderItem {
   id       String @id @default(uuid())
   quantity Int
   price    Float
-  size     Size
+  size     Size?
 
   // Relaciones
   order   Order  @relation(fields: [orderId], references: [id])

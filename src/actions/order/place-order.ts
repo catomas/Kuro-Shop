@@ -7,7 +7,7 @@ import prisma from "@/lib/prisma";
 interface ProductToOrder {
   productId: string;
   quantity: number;
-  size: Size;
+  size: Size | null;
 }
 
 export const placeOrder = async (
@@ -108,7 +108,7 @@ export const placeOrder = async (
             createMany: {
               data: productIds.map((p) => ({
                 quantity: p.quantity,
-                size: p.size,
+                size: p.size ?? null,
                 productId: p.productId,
                 price: products.find((pr) => pr.id === p.productId)?.price ?? 0,
               })),
