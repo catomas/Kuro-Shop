@@ -21,7 +21,7 @@ export interface OrderProduct {
   title: string;
   price: number;
   quantity: number;
-  size: Size;
+  size: Size | null;
   image: string;
 }
 
