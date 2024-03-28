@@ -1,7 +1,7 @@
 export const revalidate = 60;
 
 import { getPaginatedProductsWithImages } from "@/actions";
-import { ProductGrid, Title, Pagination } from "@/components";
+import { ProductGrid, Title, Pagination, Footer } from "@/components";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
@@ -33,6 +33,7 @@ export default async function Home({ searchParams }: HomeProps) {
         width={1200}
         height={1200}
       />
+
       <div className="px-2.5 md:px-32">
         <Title title="Kuro" subtitle="Todos los productos" className="mb-2" />
 

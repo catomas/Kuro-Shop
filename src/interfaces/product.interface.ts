@@ -10,9 +10,7 @@ export interface Product {
   tags: string[];
   secondCategoryId: string | null;
   principalCategoryId: string;
-  // type: Type;
   gender: string | null;
-  //category: Category;
 }
 
 export interface OrderProduct {
